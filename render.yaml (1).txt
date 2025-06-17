@@ -5,13 +5,13 @@ services:
     buildCommand: |
   pip install -r requirements.txt
   playwright install
-    startCommand: python Renderbot.py
+    startCommand: python re.py
     plan: free
     autoDeploy: true
     envVars:
       - key: CONTROL_BOT_TOKEN
-        value: "7990020438:AAHJ2-7l2JURUVgIV5tNliDiS53UsIbHbE4"
+        value: "7990020438:AAEFOOMGtTlEeeEgXVakqwDLTGjg1I70H-k"
       - key: REPORT_BOT_TOKEN
-        value: "7990743429:AAGtuHxeR8q2vbxoL-Bnq_gcP9-6-plddMk"
+        value: "7990743429:AAGnDUn1vuXg3mAxXJcxW04UH0gYWY1zguc"
       - key: PORT
         value: "8080"
