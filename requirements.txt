@@ -1,4 +1,5 @@
 pyTelegramBotAPI
+python-telegram-bot
 rembg
 schedule==1.2.2
 hijri-converter
